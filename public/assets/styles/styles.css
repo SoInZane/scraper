@@ -1,0 +1,66 @@
+body{ 
+    font-family: 'Exo', sans-serif;
+    background: url(../img/videogame_bg) no-repeat 50% 80% fixed;
+    background-size: cover ;
+
+}
+
+.navbar {
+    position: relative;
+    background: #ebe3c5;
+    padding-left: 200px;
+}
+
+#logo {
+    position: absolute;
+    top: 0px;
+    z-index: 2;
+    left: 20px;
+}
+
+.display-4 {
+    background: orangered;
+    color: whitesmoke;
+    opacity: 0.8;
+    border-radius:10px;
+}
+
+.font-italic {
+    background: orangered;
+    color: whitesmoke;
+    opacity: 0.8;
+    border-radius:10px;
+}
+
+.btn-custom-red {
+    background: #e44f50;
+}
+
+.divider {
+    border-bottom: solid white 4px;
+}
+
+#noArticles {
+    background: orangered;
+    color: whitesmoke;
+    opacity: 0.8;
+}
+#message {
+    background:orangered;
+}
+
+.article {
+    background: #ebe3c5;
+}
+
+.summary {
+    font-size: 16px;
+    color: #333333;
+}
+
+.text-custom-yellow {
+    color: #fdc842;
+}
+.text-custom-yellow:hover {
+    color: #e44f50;
+}
