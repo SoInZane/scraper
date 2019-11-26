@@ -1,56 +1,60 @@
 body{ 
     font-family: 'Exo', sans-serif;
-    background: url(../img/videogame_bg) no-repeat 50% 80% fixed;
+    background: url(../img/newspaper_bg) no-repeat 50% 80% fixed;
     background-size: cover ;
 
 }
 
 .navbar {
     position: relative;
-    background: #ebe3c5;
+    background: black;
     padding-left: 200px;
-}
-
-#logo {
-    position: absolute;
-    top: 0px;
-    z-index: 2;
-    left: 20px;
+    margin-top: 0;
+    border-bottom: solid orangered 2px;
 }
 
 .display-4 {
-    background: orangered;
-    color: whitesmoke;
-    opacity: 0.8;
+    background: whitesmoke;
+    color: black;
     border-radius:10px;
+    border: solid orangered 2px;
 }
 
 .font-italic {
-    background: orangered;
-    color: whitesmoke;
-    opacity: 0.8;
+    background: whitesmoke;
+    color: black;
     border-radius:10px;
+    border: solid orangered 2px;
+    height: 40px;
 }
 
-.btn-custom-red {
-    background: #e44f50;
+.btn-custom-green {
+    background: green;
 }
 
 .divider {
-    border-bottom: solid white 4px;
+    border-bottom: solid black 4px;
 }
 
 #noArticles {
-    background: orangered;
-    color: whitesmoke;
-    opacity: 0.8;
+    background: whitesmoke;
+    color: black;
+    border: solid orangered 2px;
 }
 #message {
-    background:orangered;
+    background: whitesmoke;
+    color: black;
+    border-radius:10px;
+    border: solid orangered 2px;
+
 }
 
 .article {
-    background: #ebe3c5;
+    background: whitesmoke;
+    color: black;
+    border-radius:10px;
+    border: solid orangered 2px;
+    height: 250px;
 }
 
 .summary {
