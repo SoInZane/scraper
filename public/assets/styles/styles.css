@@ -39,7 +39,7 @@ body{
     border-bottom: solid black 4px;
 }
 
-#noArticles {
+#noArticlesMessage {
     background: whitesmoke;
     color: black;
     border: solid orangered 2px;
